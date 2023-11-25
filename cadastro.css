@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+body{
+    margin: 0;
+    background-color: #474374;
+    background-image: url(img/imagem-menino.svg);
+    background-repeat: no-repeat;
+}
+/*Tamanho do logotipo*/
+#logo{
+    width: 150px;
+}
+/*Primeiro título*/
+h1{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    margin-right: 440px;
+}
+/*Segundo título*/
+h2{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    margin-right: 410px;
+}
+/*Cabeçalho do cadastro*/
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+/*container do cadastro*/
+.container{
+    margin-top: 70px;
+    padding-right: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: end;
+}
+/*elementos que serão utilizados em todos os inputs da página*/
+input{
+    border: 0;
+    border-radius: 5px;
+    width: 275px;
+    height: 35px;
+    background-color:#393564;
+    color: blueviolet;
+    font-family: 'Oswald', sans-serif;
+}
+/*Botão Cadastro*/
+button{
+    margin-top: 60px;
+    width: 565px;
+    height: 40px;
+    background-color: #442d44;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+}
+/*ID da pergunta sobre se o usuário já tem uma conta*/
+#print{
+    color: white;
+    margin-left: 370px;
+}
+/*ID do aviso para o usuário logar-se*/
+#log{
+    color: black;
+}
+/*ID do caminho para o usuário ir para à telahome*/
+#tm{
+    color: black;
+    margin-left: 400px;
+}
+/*tirar linha debaixo dos links*/
+a{
+    text-decoration: none;
+    color: black;
+}

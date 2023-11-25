@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Compras</title>
+    <link rel="stylesheet" href="carrinho.css">
+    <link rel="shortcut icon" type="imagex/png" href="logo.png">
+</head>
+<body>
+    <header>
+        <a href="perfil.html"><img id="pessoa" src="img/pessoa.svg" ></a>
+        <a href="home.html"><img class="imagem" src="img/logotipo.svg" id="logo"></a>
+    </header>
+    <main>
+        <h1>Carrinho de Compras</h1>
+        <div class="produto">
+            <img src="gothan.jpg" alt="Produto 1">
+            <h2>Produto 1</h2>
+            <p>Preço: R$ 19.99</p>
+            <button class="remover" onclick="removerProduto(this, 19.99)">Remover</button>
+        </div>
+        <div class="produto">
+            <img src="gta5.jpg" alt="Produto 2">
+            <h2>Produto 2</h2>
+            <p>Preço: R$ 29.99</p>
+            <button class="remover" onclick="removerProduto(this, 29.99)">Remover</button>
+        </div>
+        <div class="produto">
+            <img src="Roblox.jpg" alt="Produto 3">
+            <h2>Produto 3</h2>
+            <p>Preço: R$ 39.99</p>
+            <button class="remover" onclick="removerProduto(this, 39.99)">Remover</button>
+        </div>
+    </main>
+    <footer>
+        <div class="total">
+            <p>Total:</p>
+            <span id="total">R$ 0.00</span>
+        </div>
+        <button class="finalizar-compra" onclick="finalizarCompra()">Finalizar Compra</button>
+    </footer>
+
+    <script>
+        // Variáveis para armazenar o total e os produtos no carrinho
+        let total = 0;
+        let produtosNoCarrinho = [];
+
+        // Função para atualizar o valor total exibido
+        function atualizarValorTotal() {
+            document.getElementById('total').textContent = `R$ ${total.toFixed(2)}`;
+        }
+
+        // Função para adicionar um produto ao carrinho
+        function adicionarProduto(preco) {
+            total += preco;
+            atualizarValorTotal();
+        }
+
+        // Função para remover um produto do carrinho
+        function removerProduto(button, preco) {
+            if (total >= preco) {
+                total -= preco;
+                atualizarValorTotal();
+                const produto = button.parentNode;
+                produto.remove();
+            } else {
+                alert("Não é possível remover o produto, o valor total ficaria negativo.");
+            }
+        }
+
+        // Função para finalizar a compra (exemplo simples)
+        function finalizarCompra() {
+            alert(`Compra finalizada. Total: R$ ${total.toFixed(2)}`);
+        }
+
+        // Adicionar o valor inicial dos produtos ao carregar a página
+        document.addEventListener('DOMContentLoaded', () => {
+            const precos = [19.99, 29.99, 39.99]; // Preços dos produtos
+            for (const preco of precos) {
+                adicionarProduto(preco);
+            }
+        });
+    </script>
+</body>
+</html>

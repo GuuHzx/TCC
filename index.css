@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: url(img/fundo.png);
+}
+
+/* Estilos para o logotipo */
+#logo {
+    text-align: left;
+    margin-top: 10px;
+}
+
+#logo img {
+    max-width: 250px;
+}
+
+/* Estilos para o conteúdo */
+.paragrafo-txt1{
+    position: absolute;
+    top: 250px;
+    left: 5%; /* Ajustado para alinhar o conteúdo à esquerda */
+    transform: translate(0, -50%);
+    color: #fff;
+    font-size: xx-large;
+    font-family: 'Oswald', sans-serif;
+}
+.paragrafo-txt2{
+    position: absolute;
+    top: 450px;
+    left: 5%; /* Ajustado para alinhar o conteúdo à esquerda */
+    transform: translate(0, -50%);
+    color: #fff;
+    font-size: xx-large;
+    font-family: 'Oswald', sans-serif;
+}
+.paragrafo-txt3{
+    position: absolute;
+    top: 700px;
+    left: 5%; /* Ajustado para alinhar o conteúdo à esquerda */
+    transform: translate(0, -50%);
+    color: #fff;
+    font-size: xx-large;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Mantém o tamanho original dos títulos */
+content h3, content h1, content h4 {
+    font-size: 24px; /* Mantém o tamanho original dos títulos */
+}
+
+/* Estilo para o botão */
+button {
+    background-color: #332133;
+    color: #fff;
+    width: 370px;
+    height: 60px;
+    font-size: x-large;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: background-color 0.3s;
+    font-family: 'Oswald', sans-serif;
+}
+
+button:hover {
+    background-color: #6C6897;
+}

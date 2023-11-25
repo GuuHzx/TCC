@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+body{
+    margin: 0;
+    background-color: #474374;
+    background-image: url(img/imagem-menino.svg);
+    background-repeat: no-repeat;
+    background-position: right top;  
+    align-items: center;
+}
+/*Primeiro título*/
+h1{
+    padding-left: 10px;
+    color: white;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif
+ }
+/*Elementos que os inputs terão em comum, portando serão reutilizados*/
+input{
+    width: 510px;
+    height: 40px;
+    border: 0;
+    border-radius: 5px;
+    background-color:#393564;
+    color: blueviolet;
+    font-family: 'Oswald', sans-serif;
+}
+/**/
+.container{
+    margin-top: 150px;
+    padding-left: 120px;
+}
+/*Botão Login*/
+button{
+    width: 510px;
+    height: 40px;
+    background-color: #442d44;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+}
+/*Pergunta sobre se o usuário já tem uma conta*/
+#print{
+    color: white;
+    margin-left: 10px;
+}
+/*Aviso para o usuário se cadastrar*/
+#lnk{
+    color: black;
+}
+/*tirar linha debaixo dos links*/
+a{
+    text-decoration: none;
+    color: black;
+}

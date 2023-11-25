@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+/*Corpo do site*/
+body{
+    margin: 0;
+    background-color: #474374;
+}
+/*Cabeçalho da página*/
+header{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+#logo{
+    width: 150px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    margin-right: 780px;
+}
+h2{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    margin-right: 780px;
+}
+hr{
+    width: 990px;
+    border-color:#474374;
+}
+button{
+    margin-top: 80px;
+    margin-left: 1200px;
+    width: 200px;
+    height: 30px;
+    background-color: #442d44;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 5px;
+    border: none;
+}
+table{
+    margin-right: 390px;
+}
+#n{
+    color: white;
+}
+#e{
+    color: white;
+    margin-left: 300px;
+}
+#u{
+    color: white;
+}
+#t{
+    color: white;
+    margin-left: 300px;
+}
+#s{
+    color: white;
+}
+#cs{
+    color: white;
+    margin-left: 300px;
+}
+#cep{
+    color: white;
+}
+#nu{
+    color: white;
+    margin-left: 300px;
+}
+#r{
+    color: white;
+}
+#b{
+    color: white;
+    margin-left: 300px;
+}
+#ci{
+    color: white;
+}
+#co{
+    color: white;
+    margin-left: 300px;
+}

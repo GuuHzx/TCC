@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+/*Corpo do site*/
+body{
+    margin: 0;
+    background-color: #474374;
+}
+/*Tamanho do logotipo*/
+
+/*Primeiro container da telahm*/
+header{
+    margin-top: 30px;
+    display:flex;
+    align-items: center;
+    margin-left: 380px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+/*Primeiro título da página*/
+h1{
+    margin-top: 50px;
+    padding-left: 100px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+}
+/*Input da telahome.html*/
+.busca{
+    color: white;
+    border: none;
+    width: 500px;
+    height: 30px;
+    margin-left: 160px;
+    background-image: url(img/lupa.png);
+    background-repeat: no-repeat;
+    background-position: 473px;
+    background-color: #332133;
+    border-radius: 20px;
+}
+/*Input da telahome.html*/
+.busca:focus{
+    box-shadow:none;
+    border: none;
+}
+/*Segundo container*/
+.container2{
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+/*terceiro container*/
+.container3{
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+/*Elementos do segundo container*/
+.elemento{
+    width: 200px;
+    height: 270px;
+    border-radius: 3px;
+    background-color: #393564;
+    box-shadow: 10px 7px 7px #332133;
+    border-radius: 15px;
+    transition-timing-function: ease;
+}
+.elemento:hover{
+    transform: scale(1.3);
+}
+/*Id dos <p> localizado na telahome.html*/
+p{
+    text-align: center; /* Center text */
+    color:white;
+}
+
+/*Id das imagens do produto localizado na telahome.html*/
+#ima,
+#imb,
+#imc,
+#imd,
+#ime,
+#imf{
+    width: 180px;
+    height: 180px;
+    padding: 10px; /* Add padding for spacing */
+    object-fit: cover; /* Maintain aspect ratio for images */
+}
+
+/*tirar linha debaixo dos links*/
+a{
+    text-decoration: none;
+    color: black;
+}
+#footer{
+    margin-top: 150px;
+    background-color: #332133;
+    width: 1900px;
+    height: 450px;
+}
+#pessoa{
+    margin-left: 10px;
+    width: 28px;
+}
+#bag{
+    width: 26px;
+}

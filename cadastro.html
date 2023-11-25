@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Tcc</title>
+        <link rel="stylesheet" href="cadastro.css">
+    </head>
+    <header>
+        <img src="img/logotipo.svg" id="logo">
+    </header>
+    <body>
+        <div class="container" form  action="cadastrar.php"  method="post">
+            <h1>Cadastro</h1>
+            <h2>Dados Pessoais</h2>
+            <table>
+                <tr>
+                    <td>
+                        <input type="text" placeholder="Nome" id="n1">
+                    </td>
+                    <td>
+                        <input type="email" placeholder="E-mail" id="e2" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" placeholder="Usuario" id="u3">
+                    </td>
+                    <td>
+                        <input type="tel" placeholder="Telefone" id="t4">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="password" placeholder="Senha" id="s5">
+                    </td>
+                    <td>
+                        <input type="password" placeholder="Confirmar Senha" id="c6" required>
+                    </td>
+                </tr>
+            </table>
+            <a href="home.html"><button>Cadastrar</button></a>
+        <p id="print">Já tem uma conta?<a href="login.html" id="log">Logar</a></p>
+        <a href="telahome.html" id="tm">Ir para a tela home</a>
+        </div>
+    </body>
+</html>

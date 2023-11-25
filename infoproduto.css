@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+/*Corpo do site*/
+body{
+    margin: 0;
+    background-color: #474374;
+}
+/*Tamanho do logotipo*/
+#logo{
+    width: 200px;
+}
+/*Primeiro título da página*/
+#titulo1{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    margin-right:  1110px;
+}
+h2{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+}
+/*Cabeçalho da página*/
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+.card.descricao{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 250px;
+    object-fit: cover;
+}
+/*Elemento card do container*/
+.elemento{
+    display: flex;
+    justify-content: flex-start;
+    width: 230px;
+    height: 300px;
+    border-radius: 3px;
+    background-color: #393564;
+    box-shadow: 10px 7px 7px #332133;
+    border-radius: 15px;
+    transition-timing-function: ease;
+    object-fit: cover;
+}
+
+#teclado{
+    display: flex;
+    padding-top: 20px;
+    width: 225px;
+    height: 270px;
+}
+#mouse{
+    display: flex;
+    padding-top: 40px;
+    padding-left: 10px;
+    width: 210px;
+    height: 220px;
+}
+
+#controle{
+    display: flex;
+    padding-top: 50px;
+    padding-left: 15px;
+    width: 200px;
+    height: 210px;
+}
+
+#fone{
+    display: flex;
+    padding-top: 25px;
+    padding-left: 15px;
+    width: 195px;
+    height: 235px;
+    margin: 10px;
+}
+
+#teclado2{
+    display: flex;
+    padding: 15px;
+    padding-top: 50px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+#roblox{
+    display: flex;
+    padding: 10px;
+    width: 210px;
+    height: 280px;
+    object-fit: cover;
+}
+
+.elemento:hover{
+    transform: scale(1.3);
+}
+/*Ajustar a foto do jogo red dead 2*/
+#rdr{
+    width: 230px;
+}
+/*Descrição do produto*/
+.descricao{
+    margin-left: 500px;
+    position: fixed;
+}
+button{
+    margin-left: 100px;
+    width: 250px;
+    height: 40px;
+    background-color: #332133;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+}
+p{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+/*linha horizontal serve para seperar sessão*/
+hr{
+    width: 1030px;
+    border-color:#474374;
+}
+/*icon pessoa*/
+#pessoa{
+    margin-right: 7px;
+    width: 30px;
+}
+/*icon bag*/
+#bag{
+    margin-right: 30px;
+    width: 30px;
+}
